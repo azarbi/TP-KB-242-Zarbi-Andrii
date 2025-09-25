@@ -8,12 +8,12 @@ def findx(a, b, c):
     if d > 0:
      x1 = (-b + d**(0.5))/(2*a)
      x2 = (-b - d**(0.5))/(2*a)
-     return f"Перший корінь: {x1}" \
-     f" Другий корінь: {x2}"
+     return f"First x: {x1}" \
+     f" Second x: {x2}"
     elif d == 0:
      x = -b/(2*a)
-     return f"Рівняння має один корінь: {x}"
+     return f"Equation has one x: {x}"
     elif d < 0:
-     return "Рівняння не має розв'язку"
-print(discr(a, b, c))
-print(findx(a, b, c))
+     return "Equation has no solution"
+print("Discriminant: ", discr(a, b, c))
+print("Solution for equation: ", findx(a, b, c))
