@@ -14,4 +14,9 @@ add folder topic_03
 add solution for task1, task2, task3, task4 in topic_03
 add solution for task2, task3 and edited solution for task1 in topic_02
 
+# 2025-10-03
+
+add folder lab_01
+add solution for lab_01 and report file
+
 # TP-KB-242-Zarbi-Andrii
