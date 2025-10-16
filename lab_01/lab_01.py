@@ -53,24 +53,29 @@ def updateElement():
     # implementation required
     name = input("Please enter name to be updated: ")
     for item in list:
-        if name == item["name"]:
-            new_name = input("Please enter new name (leave empty to keep current): ")
-            new_phone= input("Please enter new phone (leave empty to keep current): ")
-            new_email = input("Please enter new email (leave empty to keep current): ")
-            new_group = input("Please enter new group (leave empty to keep current): ")
-            
-            if new_name:
-                item["name"] = new_name
-            if new_phone:
-                item["phone"] = new_phone
-            if new_email:
-                item["email"] = new_email  
-            if new_group:
-                item["group"] = new_group
-            list.sort(key=lambda x: x["name"])    
-            print("Element was updated")          
-            return
-    print("Item wasnot found in list")
+     if name == item["name"]:
+        deletePosition = list.index(item)
+        break
+    if deletePosition == -1:
+        print("Element was not found")
+    else:
+         del list[deletePosition]
+
+    name = input("Please enter new name: ")
+    phone= input("Please enter new phone: ")
+    email = input("Please enter new email: ")
+    group = input("Please enter new group: ")    
+    newItem = {"name": name, "phone": phone, "email": email, "group": group}
+
+    insertPosition = 0
+    for item in list:
+     if name > item["name"]:
+         insertPosition += 1
+     else:
+         break
+    list.insert(insertPosition, newItem)
+    print("Element was updated")
+    return
 
 def main():
     while True:
