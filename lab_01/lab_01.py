@@ -64,13 +64,13 @@ def updateElement():
         print("Element was not found")
         return
 
-    new_name = input("Please enter new name (Enter to keep old): ") or item["name"]
-    new_phone= input("Please enter new phone (Enter to keep old): ") or item["phone"]
-    new_email = input("Please enter new email (Enter to keep old): ") or item["email"]
-    new_group = input("Please enter new group (Enter to keep old): ") or item["group"]
-    updatedItem = {"name": new_name, "phone": new_phone, "email": new_email, "group": new_group}
-    
     del list[deletePosition]
+
+    new_name = input("Please enter new name: ")
+    new_phone= input("Please enter new phone: ")
+    new_email = input("Please enter new email: ")
+    new_group = input("Please enter new group: ")
+    updatedItem = {"name": new_name, "phone": new_phone, "email": new_email, "group": new_group}
             
     insertPosition = 0
     for item in list:
