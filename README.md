@@ -29,4 +29,9 @@ add solution for task1, task2
 add folder topic_05
 add solution for task1, task2, task3
 
+# 2025-11-20
+
+add folder topic_06
+add solution for task1, task2
+
 # TP-KB-242-Zarbi-Andrii
