@@ -1,0 +1,10 @@
+First number: 6 
+Second number: 7 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 3 
+Result: 42 
+====================================
+First number: 8 
+Second number: 4 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 4 
+Result: 2.0 
+====================================
