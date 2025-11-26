@@ -1,7 +1,7 @@
 from operations import getNumbers, choiceOperation, operationResult
 
 def saveData(a, b, choice, result):
-    with open("log.txt", "a") as file:
+    with open("topic_06/task_01/log.txt", "a") as file:
         file.write(f"First number: {a} \nSecond number: {b} \nOperation (1 (+); 2  (-); 3 (*); 4 (/)): {choice} \nResult: {result} \n====================================\n")
 
 a, b = getNumbers()

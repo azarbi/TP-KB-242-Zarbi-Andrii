@@ -1,0 +1,25 @@
+First number: 6 
+Second number: 8 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 3 
+Result: 48 
+====================================
+First number: 5 
+Second number: 3 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 2 
+Result: 2 
+====================================
+First number: 20 
+Second number: 45 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 1 
+Result: 65 
+====================================
+First number: 6 
+Second number: 2 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 4 
+Result: 3.0 
+====================================
+First number: 5 
+Second number: 6 
+Operation (1 (+); 2  (-); 3 (*); 4 (/)): 5 
+Result: None 
+====================================
